@@ -13,6 +13,7 @@ public class FirstJunitTest {
     static void afterAll(){
         System.out.println("    Это метод afterAll");
     }
+
     @BeforeEach
     void beforeEach(){
         System.out.println("    Это метод BeforeEach");
